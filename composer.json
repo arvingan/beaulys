@@ -1,0 +1,16 @@
+{
+    "name": "shopnc",
+    "description": "A framework to quickly set up an online store",
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=5.3.0",
+        "josegonzalez/dotenv": "dev-master"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
