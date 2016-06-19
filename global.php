@@ -21,6 +21,7 @@ if (!is_file(BASE_ROOT_PATH."/install/lock") && is_file(BASE_ROOT_PATH."/install
     }
     exit;
 }
+
 define('BASE_CORE_PATH',BASE_ROOT_PATH.'/core');
 define('BASE_DATA_PATH',BASE_ROOT_PATH.'/data');
 define('DS','/');
@@ -136,3 +137,11 @@ define('ORDER_DEL_STATE_DROP', 2);
 define('ORDER_EVALUATE_TIME', 1296000);
 //抢购订单状态
 define('OFFLINE_ORDER_CANCEL_TIME', 3);//单位为天
+
+/**
+ * autoload & vendor
+ */
+require(BASE_ROOT_PATH . '/vendor/autoload.php');
+
+//Dotenv & make getenv() available
+(new josegonzalez\Dotenv\Loader(__DIR__ . '/.env'))->parse()->putenv(true); // Throws LogicException if ->parse() is not called first
