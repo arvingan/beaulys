@@ -6,15 +6,10 @@
 <script type="text/javascript" src="js/index.js"></script> 
 <script type="text/javascript" src="js/tmpl/footer.js"></script>
 <script type="text/javascript" src="js/addtohomescreen.js"></script>
-<script type="text/javascript" src="js/mui.js"></script> 
+<script type="text/javascript" src="styles/js/mui.js"></script>
+<script type="text/javascript" src="styles/js/public.js"></script> 
 <script>
 	
 	
-	$(function(){
-		setTimeout(function(){
-			mui.init()
-			
-		},100)
-		
-	})
+	
 </script>

@@ -1,40 +1,23 @@
-
 <!doctype html>
 <html>
 <head>
 <?php include "styles/publichead.php" ?>
 </head>
 <body>
-	<div class="nctouch-home-nav fixed-Width">
-  <ul>
-    <li><a href="tmpl/product_first_categroy.html"><span><i></i></span>
-      <p>分类</p>
-      </a></li>
-    <li><a href="tmpl/cart_list.html"><span><i></i></span>
-      <p>购物车</p>
-      </a></li>
-    <li><a href="tmpl/member/member.html"><span><i></i></span>
-      <p>我的商城</p>
-      </a></li>
-    <li><a href="tmpl/member/signin.html"><span><i></i></span>
-      <p>每日签到</p>
-     </a></li>
-  </ul>
-</div>
-	<div class="mui-off-canvas-wrap mui-draggable" id='offCanvasShow'>
-		<aside class="mui-off-canvas-right " id='offCanvasSide'>
+	<div class="mui-off-canvas-wrap " id='offCanvasWrapper'>
+	<aside class="mui-off-canvas-right " id='offCanvasSide'>
 	      <div class="mui-scroll-wrapper">
 	        <div class="mui-scroll">
 	        <div class="title" style="margin-bottom: 25px;">菜单栏</div>
 						<ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted">
 							<li class="mui-table-view-cell">
-								<a class="mui-navigate-right">
-									Item 1
+								<a class="mui-navigate-right" href="tmpl/member/member.html">
+									购物车
 								</a>
 							</li>
 							<li class="mui-table-view-cell">
-								<a class="mui-navigate-right">
-									Item 2
+								<a class="mui-navigate-right" href="tmpl/member/member.html">
+									我的商城
 								</a>
 							</li>
 							<li class="mui-table-view-cell">
@@ -63,55 +46,57 @@
 	      </div>
 	    </aside>
 	<!-- 主页面标题 -->
-	
-	<div id="offCanvasContentScroll" class="mui-inner-wrap">
+
+	<div class="mui-inner-wrap">
 		<div class="mui-off-canvas-backdrop"></div>
 		<header class="mui-bar mui-bar-nav">
 			<h1 class="mui-title left-logo">logo</h1>
-			<a id='offCanvasShow' href="#offCanvasSide" class="mui-icon mui-action-menu mui-icon-bars mui-pull-right"></a>
-			<a class="mui-icon mui-action-menu mui-icon-plus mui-pull-right"></a>
-			<a class="mui-icon mui-action-menu mui-icon-search mui-pull-right"></a>
+			<a id='offCanvasShow' href="#" class="mui-icon mui-action-menu mui-icon-bars mui-pull-right"></a>
+			<a href="#" class="mui-icon mui-action-menu mui-icon-plus mui-pull-right"></a>
+			<a  href="tmpl/search.html" class="mui-icon mui-action-menu mui-icon-search mui-pull-right"></a>
 		</header>
-			<div  class="mui-content mui-scroll-wrapper">
-			<div class="headerNav_list">
-				<ul>
-					<li><a>子列表</a></li>
-					<li><a>子列表</a></li>
-					<li><a>子列表</a></li>
-					<li><a>子列表</a></li>
-					<li><a>子列表</a></li>
-					<li><a>子列表</a></li>
-					<li><a>子列表</a></li>
-					<li><a>子列表</a></li>
-					<li><a>子列表</a></li>
-				</ul>
-			</div>
-			<div class="adv_list" id="main-container1"></div>
-			<div class="nctouch-home-layout" id="main-container2"></div>
-			<div class="fix-block-r">
-				<a href="javascript:void(0);" class="gotop-btn gotop hide" id="goTopBtn"><i></i></a>
-			</div>
-			<div class="mui-card">
-				<ul class="mui-table-view"> 
-			        <li class="mui-table-view-cell mui-collapse mui-active">
-			            <a class="mui-navigate-right" href="#">面板1</a>
-			            <div class="mui-collapse-content">
-			                <p>面板1子内容</p>
-			            </div>
-			        </li>
-			        <li class="mui-table-view-cell mui-collapse">
-			            <a class="mui-navigate-right" href="#">面板</a>
-			                <div class="mui-collapse-content">
-			                <p>面板2子内容</p>
-			            </div>
-			        </li>
-			        <li class="mui-table-view-cell mui-collapse">
-			            <a class="mui-navigate-right" href="#">面板3</a>
-			            <div class="mui-collapse-content">
-			                <p>面板3子内容</p>
-			            </div>
-			        </li> 
-			    </ul>
+		<div  id="offCanvasContentScroll" class="mui-content mui-scroll-wrapper">
+			<div class="mui-scroll">
+				<div class="headerNav_list">
+					<ul>
+						<li><a href="tmpl/product_first_categroy.html">分类</a></li>
+						<li><a>子列表</a></li>
+						<li><a>子列表</a></li>
+						<li><a>子列表</a></li>
+						<li><a>子列表</a></li>
+						<li><a>子列表</a></li>
+						<li><a>子列表</a></li>
+					</ul>
+				</div>
+					<div class="mb-header-box">八折优惠码：TREAT + 满购即有礼</div>
+				<!--模块-->
+				<div class="adv_list" id="main-container1"></div>
+				<div class="nctouch-home-layout" id="main-container2"></div>
+				<div class="fix-block-r">
+					<a href="javascript:void(0);" class="gotop-btn gotop hide" id="goTopBtn"><i></i></a>
+				</div>
+				<div class="mui-card">
+					<ul class="mui-table-view"> 
+				        <li class="mui-table-view-cell mui-collapse mui-active">
+				            <a class="mui-navigate-right" href="#">面板1</a>
+				            <div class="mui-collapse-content">
+				                <p>面板1子内容</p>
+				            </div>
+				        </li>
+				        <li class="mui-table-view-cell mui-collapse">
+				            <a class="mui-navigate-right" href="#">面板</a>
+				                <div class="mui-collapse-content">
+				                <p>面板2子内容</p>
+				            </div>
+				        </li>
+				        <li class="mui-table-view-cell mui-collapse">
+				            <a class="mui-navigate-right" href="#">面板3</a>
+				            <div class="mui-collapse-content">
+				                <p>面板3子内容</p>
+				            </div>
+				        </li> 
+				    </ul>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -279,22 +264,13 @@
 
 <?php include "styles/publicjs.php" ?>
 <script>
-//	addToHomescreen({
-//		message:'如要把应用程式加至主屏幕,请点击%icon, 然后<strong>加至主屏幕</strong>'
-//	});
 	$(function(){
 		setTimeout(function(){
 			mui('#offCanvasContentScroll').scroll();
-			mui.init({
-						swipeBack:true //启用右滑关闭功能
-					});
 			var gallery = mui('.mui-slider');
 			
 			gallery.slider({
 			  interval:5000//自动轮播周期，若为0则不自动播放，默认为0；
-			});
-			mui.init({
-				swipeBack: true,
 			});
 			document.getElementById('offCanvasShow').addEventListener('tap', function() {
 				 mui('.mui-off-canvas-wrap').offCanvas('show');

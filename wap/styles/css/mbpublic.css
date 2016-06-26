@@ -1,22 +1,100 @@
-body{    font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,冬青黑体,STHeiti,华文黑体,Microsoft YaHei,微软雅黑,sans-serif;background-color: #fff;}
-.mui-bar-nav{background-color: #34b3a1;}
-.mui-bar-nav.mui-bar .mui-icon{color: #fff;}
-.mui-title.left-logo{right:auto;left: 10px;}
+body {
+	font: 14px/1.5 Helvetica Neue, Helvetica, Arial, Hiragino Sans GB, 冬青黑体, STHeiti, 华文黑体, Microsoft YaHei, 微软雅黑, sans-serif;
+	background-color: #fff;
+}
 
-.mui-card{border-radius: 0px;margin: 10px;}
-.headerNav_list{height: 44px;width: 100%;overflow: auto;}
-.headerNav_list ul{    height: 44px;
-    list-style-type: none;
-    margin: 0;
-    white-space: nowrap;
-    overflow-y: auto;}
-.headerNav_list li{display: inline-block;line-height: 40px;    white-space: nowrap;  }
-.headerNav_list li a{  padding: 14px 14px 11px;color: #34b3a1;    font-size: 16px;}
-.mui-bar-nav.mui-bar .mui-icon{margin-right:8px;
-    margin-left:8px;font-size: 26px;    padding:10px 0px;}
-    .mui-off-canvas-wrap .mui-inner-wrap{background-color: #fff;}
-.nctouch-home-block .tit-bar{font-size: 20px;
-    margin: 0;
-    text-transform: uppercase;
-    line-height: 1.5rem;border-left: none;border-bottom: solid 1px #999;padding: 5px;height:1.5rem;}
-aside .title{color: #fff;line-height: 60px;height: 30px;text-align: center;}
+.mui-bar-nav {
+	background-color: #34b3a1;
+}
+
+.mui-bar-nav.mui-bar .mui-icon {
+	color: #fff;
+}
+
+.mui-title.left-logo {
+	right: auto;
+	left: 10px;
+	color: #fff;font-size: 18px}
+
+.mui-card {
+	border-radius: 0px;
+	margin: 10px;
+}
+
+.headerNav_list {
+	height: 44px;
+	width: 100%;
+	overflow: auto;
+	background-color: #fff;
+}
+
+.headerNav_list ul {
+	height: 44px;
+	list-style-type: none;
+	margin: 0;
+	white-space: nowrap;
+	overflow-y: auto;
+}
+
+.headerNav_list li {
+	display: inline-block;
+	line-height: 40px;
+	white-space: nowrap;
+}
+
+.headerNav_list li a {
+	padding: 14px 14px 11px;
+	color: #34b3a1;
+	font-size: 16px;
+}
+
+.mui-bar-nav.mui-bar .mui-icon {
+	margin-right: 8px;
+	margin-left: 8px;
+	font-size: 26px;
+	padding: 10px 0px;
+}
+
+.mui-off-canvas-wrap .mui-inner-wrap {
+	background-color: #fff;
+}
+
+.nctouch-home-block .tit-bar {
+	font-size: 20px;
+	margin: 0 auto;
+	text-transform: uppercase;
+	line-height: 1.5rem;
+	border-left: none;
+	border-bottom: solid 1px #999;
+	padding: 5px;
+	height: 1.5rem;width: 90%;    border-bottom: 1px solid #ccc;margin-bottom: 10px;
+}
+
+aside .title {
+	color: #28bdb3;
+	line-height: 60px;
+	height: 30px;
+	text-align: center;
+}
+
+.mb-header-box {
+	background: #34b3a1;
+	text-align: center;
+	font-size: 12px;
+	font-weight: 700;
+	color: #fff;
+	line-height: 50px;
+	height: 50px;
+}
+.mui-content{background-color: #fff;}
+.header-icon{   width: 24px;
+    height: 23px;
+    background-position: -38px -171px;
+    background-image: url(../../images/lfcn-global-sprite.png);
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 8px;
+    margin-left: 8px;
+    font-size: 26px;
+    float: right;box-sizing: border-box;}
+
